@@ -26,38 +26,856 @@ Rudnick, J., and G. Gaspari. _Elements of the Random Walk_. Cambridge, UK: Cambr
 
 Spitzer, F. _Principles of the Random Walk_. 2nd ed. New York, NY: Springer-Verlag, 2001. ISBN: 0387951547.
 
-| LEC # | TOPICS | 2006 Lecture NOTES | 2006 READINGS |
-| --- | --- | --- | --- |
-| 1 |  {{< br >}}{{< br >}} Overview {{< br >}}{{< br >}} History (Pearson, Rayleigh, Einstein, Bachelier) {{< br >}}{{< br >}} Normal vs. Anomalous Diffusion {{< br >}}{{< br >}} Mechanisms for Anomalous Diffusion {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 1 ([PDF]({{< baseurl >}}/resources/lec01)) {{< br >}}{{< br >}} Hughes {{< br >}}{{< br >}}  |
-| {{< td-colspan 4 >}}**I. Normal Diffusion**{{< /td-colspan >}} ||||
-| {{< td-colspan 4 >}}**I.A. Linear Diffusion**{{< /td-colspan >}} ||||
-| 2 | {{< h 3 >}}Moments, Cumulants, and Scaling{{< /h >}} {{< br >}}{{< br >}} Markov Chain for the Position (in d Dimensions), Exact Solution by Fourier Transform, Moment and Cumulant Tensors, Additivity of Cumulants, "Square-root Scaling" of Normal Diffusion {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 2 ([PDF]({{< baseurl >}}/resources/lec02)) {{< br >}}{{< br >}} Hughes {{< br >}}{{< br >}}  |
-| 3 | {{< h 3 >}}The Central Limit Theorem and the Diffusion Equation{{< /h >}} {{< br >}}{{< br >}} Multi-dimensional CLT for Ssums of IID Random Vectors {{< br >}}{{< br >}} Continuum Derivation Involving the Diffusion Equation {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 1 ([PDF]({{< baseurl >}}/resources/lec01)) {{< br >}}{{< br >}} 2005 Lecture 3 ([PDF]({{< baseurl >}}/resources/lec03)) {{< br >}}{{< br >}}  |
-| 4 | {{< h 3 >}}Asymptotic Shape of the Distribution{{< /h >}} {{< br >}}{{< br >}} Berry-Esseen Theorem {{< br >}}{{< br >}} Asymptotic Analysis Leading to Edgeworth Expansions, Governing Convergence to the CLT (in one Dimension), and more Generally Gram-Charlier Expansions for Random Walks {{< br >}}{{< br >}} Width of the Central Region when Third and Fourth Moments Exist {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 3 ([PDF]({{< baseurl >}}/resources/lec03)) {{< br >}}{{< br >}} 2005 Lecture 4 ([PDF]({{< baseurl >}}/resources/lec04)) {{< br >}}{{< br >}} Hughes {{< br >}}{{< br >}} Feller {{< br >}}{{< br >}}  |
-| 5 | {{< h 3 >}}Globally Valid Asymptotics{{< /h >}} {{< br >}}{{< br >}} Method of Steepest Descent (Saddle-Point Method) for Asymptotic Approximation of Integrals {{< br >}}{{< br >}} Application to Random Walks {{< br >}}{{< br >}} Example: Asymptotics of the Bernoulli Random Walk {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 6 ([PDF]({{< baseurl >}}/resources/lec06)) {{< br >}}{{< br >}} 2005 Lecture 7 ([PDF]({{< baseurl >}}/resources/lec07)) {{< br >}}{{< br >}} Hughes {{< br >}}{{< br >}}  |
-| 6 | {{< h 3 >}}Power-law "Fat Tails"{{< /h >}} {{< br >}}{{< br >}} Power-law Tails, Diverging Moments and Singular Characteristic Functions {{< br >}}{{< br >}} Additivity of Tail Amplitudes {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 5 ([PDF]({{< baseurl >}}/resources/lec05)) {{< br >}}{{< br >}} 2005 Lecture 6 ([PDF]({{< baseurl >}}/resources/lec06)) {{< br >}}{{< br >}} Bouchaud and Potters {{< br >}}{{< br >}}  |
-| 7 | {{< h 3 >}}Asymptotics with Fat Tails{{< /h >}} {{< br >}}{{< br >}} Corrections to the CLT for Power-law Tails (but Finite Variance) {{< br >}}{{< br >}} Parabolic Cylinder Functions and Dawson's Integral {{< br >}}{{< br >}} A Numerical Example Showing Global Accuracy and Fast Convergence of the Asymptotic Approximation {{< br >}}{{< br >}}  |  {{< br >}}{{< br >}} ([PDF]({{< baseurl >}}/resources/lec07_06)) (Courtesy of Damian Burch. Used with permission.) {{< br >}}{{< br >}} Numerical Example ([PDF]({{< baseurl >}}/resources/dawson3)) (Courtesy of Chris H. Rycroft. Used with permission.) {{< br >}}{{< br >}}  | 2005 Lecture 5 ([PDF]({{< baseurl >}}/resources/lec05)) |
-| 8 | {{< h 3 >}}From Random Walks to Diffusion{{< /h >}} {{< br >}}{{< br >}} Examples of Random Walks Modeled by Diffusion Equations {{< br >}}{{< br >}} *   Flagellar Bacteria {{< br >}}{{< br >}} Run and Tumble Motion, Chemotaxis {{< br >}}{{< br >}} *   Financial Time Series {{< br >}}{{< br >}} Additive Versus Multiplicative Processes {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lec08_06)) (Courtesy of Daniel Rudoy. Used with permission.) |  {{< br >}}{{< br >}} 2005 Lecture 10 ([PDF]({{< baseurl >}}/resources/lec10)) {{< br >}}{{< br >}} Bouchaud and Potters {{< br >}}{{< br >}}  |
-| 9 | {{< h 3 >}}Discrete Versus Continuous Stochastic Processes{{< /h >}} {{< br >}}{{< br >}} Corrections to the Diffusion Equation Approximating Discrete Random Walks with IID Steps {{< br >}}{{< br >}} Fat Tails and Riesz Fractional Derivatives {{< br >}}{{< br >}} Stochastic Differentials, Wiener Process {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lec09_06)) (Courtesy of Kwai Hung Henry Lam. Used with permission.) |  {{< br >}}{{< br >}} 2005 Lecture 8 ([PDF]({{< baseurl >}}/resources/lec08)) {{< br >}}{{< br >}} 2005 Lecture 9 ([PDF]({{< baseurl >}}/resources/lec09)) {{< br >}}{{< br >}} 2005 Lecture 13 ([PDF]({{< baseurl >}}/resources/lec13)) {{< br >}}{{< br >}} Risken {{< br >}}{{< br >}}  |
-| 10 | {{< h 3 >}}Weakly Non-identical Steps{{< /h >}} {{< br >}}{{< br >}} Chapman-Kolmogorov Equation, Kramers-Moyall Expansion, Fokker-Planck Equation. Probability Flux {{< br >}}{{< br >}} Modified Kramers-Moyall Cumulant Expansion for Identical Steps {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 8 ([PDF]({{< baseurl >}}/resources/lec08)) {{< br >}}{{< br >}} 2005 Lecture 9 ([PDF]({{< baseurl >}}/resources/lec09)) {{< br >}}{{< br >}} 2005 Lecture 13 ([PDF]({{< baseurl >}}/resources/lec13)) {{< br >}}{{< br >}} Risken {{< br >}}{{< br >}}  |
-| {{< td-colspan 4 >}}**I.B. Nonlinear Diffusion**{{< /td-colspan >}} ||||
-| 11 | {{< h 3 >}}Nonlinear Drift{{< /h >}} {{< br >}}{{< br >}} Interacting Random Walkers, Concentration-dependent Drift {{< br >}}{{< br >}} Nonlinear Waves in Traffic Flow, Characteristics, Shocks, Burgers' Equation {{< br >}}{{< br >}} Surface Growth, Kardar-Parisi-Zhang Equation {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lec11_06)) (Courtesy of Lou Odette. Used with permission.) | &nbsp; |
-| 12 | {{< h 3 >}}Nonlinear Diffusion{{< /h >}} {{< br >}}{{< br >}} Cole-Hopf Transformation, General Solution of Burgers Equation {{< br >}}{{< br >}} Concentration-dependent Diffusion, Chemical Potential. Rechargeable Batteries, Steric Effects {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} Problem set 3 solutions {{< br >}}{{< br >}}  |
-| {{< td-colspan 4 >}}**I.C. First Passage and Exploration**{{< /td-colspan >}} ||||
-| 13 | {{< h 3 >}}Return Probability on a Lattice{{< /h >}} {{< br >}}{{< br >}} Probability Generating Functions on the Integers, First Passage and Return on a Lattice, Polya's Theorem {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lec13_06)) (Courtesy of Chris H. Rycroft. Used with permission.) |  {{< br >}}{{< br >}} 2005 Lecture 17 ([PDF]({{< baseurl >}}/resources/lec17)) {{< br >}}{{< br >}} 2005 Lecture 18 ([PDF]({{< baseurl >}}/resources/lec18)) {{< br >}}{{< br >}} Hughes Redne {{< br >}}{{< br >}}  |
-| 14 | {{< h 3 >}}The Arcsine Distribution{{< /h >}} {{< br >}}{{< br >}} Reflection Principle and Path Counting for Lattice Random Walks, Derivation of the Discrete Arcsine Distribution for the Fraction of Time Spent on One Side of the Origin, Continuum Limit {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lec14_06)) (Courtesy of Chris H. Rycroft. Used with permission.) | Feller |
-| 15 | {{< h 3 >}}First Passage in the Continuum Limit{{< /h >}} {{< br >}}{{< br >}} General Formulation in One Dimension {{< br >}}{{< br >}} Smirnov Density {{< br >}}{{< br >}} Minimum First Passage Time of a Set of N Random Walkers {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 16 ([PDF]({{< baseurl >}}/resources/lec16)) {{< br >}}{{< br >}} Exam 2 (problem 2) {{< br >}}{{< br >}}  |
-| 16 | {{< h 3 >}}First Passage in Arbitrary Geometries{{< /h >}} {{< br >}}{{< br >}} General Formulation in Higher Dimensions, Moments of First Passage Time, Eventual Hitting Probability, Electrostatic Analogy for Diffusion, First Passage to a Sphere {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 18 ([PDF]({{< baseurl >}}/resources/lec18)) {{< br >}}{{< br >}} Redner {{< br >}}{{< br >}} Risken {{< br >}}{{< br >}}  |
-| 17 | {{< h 3 >}}Conformal Invariance{{< /h >}} {{< br >}}{{< br >}} Conformal Transformations (Analytic Functions of the Plane, Stereographic Projection from the Plane to a Sphere,...), Conformally Invariant Transport Processes (Simple Diffusion, Advection-diffusion in a Potential Flow,...), Conformal Invariance of the Hitting Probability {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lec17_06)) (Courtesy of Yee Lok Wong. Used with permission.) |  {{< br >}}{{< br >}} 2003 Lecture 23 ([PDF]({{< baseurl >}}/resources/lecture23)) {{< br >}}{{< br >}} An [Article](http://dx.doi.org/10.1098/rspa.2003.1218) {{< br >}}{{< br >}} Redner {{< br >}}{{< br >}}  |
-| 18 | {{< h 3 >}}Hitting Probabilities in Two Dimensions{{< /h >}} {{< br >}}{{< br >}} Potential Theory using Complex Analysis, Mobius Transformations, First Passage to a Line {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2003 Lecture 23 ([PDF]({{< baseurl >}}/resources/lecture23)) {{< br >}}{{< br >}} Redner {{< br >}}{{< br >}}  |
-| 19 | {{< h 3 >}}Applications of Conformal Mapping{{< /h >}} {{< br >}}{{< br >}} First Passage to a Circle, Wedge/Corner, Parabola. Continuous Laplacian Growth, Polubarinova-Galin Equation, Saffman-Taylor Fingers, Finite-time Singularities {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2003 Lecture 23 ([PDF]({{< baseurl >}}/resources/lecture23)) {{< br >}}{{< br >}} 2003 Lecture 24 ([PDF]({{< baseurl >}}/resources/lecture24)) {{< br >}}{{< br >}}  |
-| 20 | {{< h 3 >}}Diffusion-limited Aggregation{{< /h >}} {{< br >}}{{< br >}} Harmonic Measure, Hastings-Levitov Algorithm, Comparison of Discrete and Continuous Dynamics {{< br >}}{{< br >}} Overview of Mechanisms for Anomalous Diffusion {{< br >}}{{< br >}} Non-identical Steps {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2003 Lectures 25 ([PDF]({{< baseurl >}}/resources/lecture25)) {{< br >}}{{< br >}} 2003 Lecture 14 ([PDF]({{< baseurl >}}/resources/lecture14)) {{< br >}}{{< br >}} 2003 Lecture 15 ([PDF]({{< baseurl >}}/resources/lecture15)) {{< br >}}{{< br >}} A [Review Article](http://de.arxiv.org/abs/cond-mat/0409439) {{< br >}}{{< br >}}  |
-| {{< td-colspan 4 >}}**II. Anomalous Diffusion**{{< /td-colspan >}} ||||
-| {{< td-colspan 4 >}}**II.A. Breakdown of the CLT**{{< /td-colspan >}} ||||
-| 21 | {{< h 3 >}}Polymer Models: Persistence and Self-avoidance{{< /h >}} {{< br >}}{{< br >}} Random Walk to Model Entropic Effects in Polymers, Restoring Force for Stretching; Persistent Random Walk to Model Bond-bending Energetic Effects, Green-Kubo Relation, Persistence Length, Telegrapher's Equation; Self-avoiding Walk to Model Steric Effects, Fisher-Flory Estimate of the Scaling Exponent {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lectures 19 ([PDF]({{< baseurl >}}/resources/lec19)) {{< br >}}{{< br >}} 2005 Lecture 20 ([PDF]({{< baseurl >}}/resources/lec20)) {{< br >}}{{< br >}} 2003 Lecture 9 ([PDF]({{< baseurl >}}/resources/lecture9)) {{< br >}}{{< br >}} 2003 Lecture 10 ([PDF]({{< baseurl >}}/resources/lecture10)) {{< br >}}{{< br >}} 2003 Lecture 11 ([PDF]({{< baseurl >}}/resources/lecture11)) {{< br >}}{{< br >}}  |
-| 22 | {{< h 3 >}}Levy Flights{{< /h >}} {{< br >}}{{< br >}} Superdiffusion and Limiting Levy Distributions for Steps with Infinite Variance, Examples, Size of the Largest Step, Frechet Distribution {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 22 ([PDF]({{< baseurl >}}/resources/lec22_neville)) {{< br >}}{{< br >}} 2003 Lecture 12 ([PDF]({{< baseurl >}}/resources/lecture12)) {{< br >}}{{< br >}} 2003 Lecture 13 ([PDF]({{< baseurl >}}/resources/lecture13)) {{< br >}}{{< br >}} Hughes {{< br >}}{{< br >}}  |
-| {{< td-colspan 4 >}}**II.B. Continuous-Time Random Walks**{{< /td-colspan >}} ||||
-| 23 | {{< h 3 >}}Continuous-time Random Walks{{< /h >}} {{< br >}}{{< br >}} Laplace Transform. Renewal Theory {{< br >}}{{< br >}} Montroll-Weiss Formulation of CTRW {{< br >}}{{< br >}} DNA Gel Electrophoresis {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/lec23_chris_06)) (Courtesy of Michael Vahey. Used with permission.) |  {{< br >}}{{< br >}} 2005 Lecture 23 ([PDF]({{< baseurl >}}/resources/lec23_chris)) {{< br >}}{{< br >}} 2003 Lecture 15 ([PDF]({{< baseurl >}}/resources/lecture15)) {{< br >}}{{< br >}} 2003 Lecture 16 ([PDF]({{< baseurl >}}/resources/lecture16)) {{< br >}}{{< br >}} 2003 Lecture 17 ([PDF]({{< baseurl >}}/resources/lecture17)) {{< br >}}{{< br >}}  |
-| 24 | {{< h 3 >}}Fractional Diffusion Equations{{< /h >}} {{< br >}}{{< br >}} CLT for CTRW {{< br >}}{{< br >}} Infinite Man Waiting Time, Mittag-Leffler Decay of Fourier Modes, Time-delayed Flux, Fractional Diffusion Equation {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 24 ([PDF]({{< baseurl >}}/resources/lec24_yuxing)) {{< br >}}{{< br >}} 2003 Lecture 18 ([PDF]({{< baseurl >}}/resources/lecture18)) {{< br >}}{{< br >}}  |
-| 25 | {{< h 3 >}}Non-separable Continuous-time Random Walks{{< /h >}} {{< br >}}{{< br >}} "Phase Diagram" for Anomalous Diffusion: Large Steps Versus Long Waiting Times {{< br >}}{{< br >}} Application to Flagellar Bacteria. Hughes' General Formulation of CTRW with Motion between "turning points" {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 25 ([PDF]({{< baseurl >}}/resources/lec25_2005_rev2)) {{< br >}}{{< br >}} 2005 Lecture 26 ([PDF]({{< baseurl >}}/resources/lec26_geraint)) {{< br >}}{{< br >}} Hughes {{< br >}}{{< br >}}  |
-| 26 | {{< h 3 >}}Leapers and Creepers{{< /h >}} {{< br >}}{{< br >}} Hughes' Leaper and Creeper Models {{< br >}}{{< br >}} Leaper Example: Polymer Surface Adsorption Sites and Cross-sections of a Random Walk {{< br >}}{{< br >}} Creeper Examples: Levy Walks, Bacterial Motion, Turbulent Dispersion {{< br >}}{{< br >}}  | &nbsp; |  {{< br >}}{{< br >}} 2005 Lecture 26 ([PDF]({{< baseurl >}}/resources/lec26_geraint)) {{< br >}}{{< br >}} Hughes {{< br >}}{{< br >}}
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+2006 Lecture NOTES
+{{< thclose >}}
+{{< thopen >}}
+2006 READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Overview
+
+History (Pearson, Rayleigh, Einstein, Bachelier)
+
+Normal vs. Anomalous Diffusion
+
+Mechanisms for Anomalous Diffusion
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 1 ([PDF]({{< baseurl >}}/resources/lec01))
+
+Hughes
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**I. Normal Diffusion**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**I.A. Linear Diffusion**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Moments, Cumulants, and Scaling
+
+Markov Chain for the Position (in d Dimensions), Exact Solution by Fourier Transform, Moment and Cumulant Tensors, Additivity of Cumulants, "Square-root Scaling" of Normal Diffusion
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 2 ([PDF]({{< baseurl >}}/resources/lec02))
+
+Hughes
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### The Central Limit Theorem and the Diffusion Equation
+
+Multi-dimensional CLT for Ssums of IID Random Vectors
+
+Continuum Derivation Involving the Diffusion Equation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 1 ([PDF]({{< baseurl >}}/resources/lec01))
+
+2005 Lecture 3 ([PDF]({{< baseurl >}}/resources/lec03))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Asymptotic Shape of the Distribution
+
+Berry-Esseen Theorem
+
+Asymptotic Analysis Leading to Edgeworth Expansions, Governing Convergence to the CLT (in one Dimension), and more Generally Gram-Charlier Expansions for Random Walks
+
+Width of the Central Region when Third and Fourth Moments Exist
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 3 ([PDF]({{< baseurl >}}/resources/lec03))
+
+2005 Lecture 4 ([PDF]({{< baseurl >}}/resources/lec04))
+
+Hughes
+
+Feller
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Globally Valid Asymptotics
+
+Method of Steepest Descent (Saddle-Point Method) for Asymptotic Approximation of Integrals
+
+Application to Random Walks
+
+Example: Asymptotics of the Bernoulli Random Walk
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 6 ([PDF]({{< baseurl >}}/resources/lec06))
+
+2005 Lecture 7 ([PDF]({{< baseurl >}}/resources/lec07))
+
+Hughes
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Power-law "Fat Tails"
+
+Power-law Tails, Diverging Moments and Singular Characteristic Functions
+
+Additivity of Tail Amplitudes
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 5 ([PDF]({{< baseurl >}}/resources/lec05))
+
+2005 Lecture 6 ([PDF]({{< baseurl >}}/resources/lec06))
+
+Bouchaud and Potters
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Asymptotics with Fat Tails
+
+Corrections to the CLT for Power-law Tails (but Finite Variance)
+
+Parabolic Cylinder Functions and Dawson's Integral
+
+A Numerical Example Showing Global Accuracy and Fast Convergence of the Asymptotic Approximation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+([PDF]({{< baseurl >}}/resources/lec07_06)) (Courtesy of Damian Burch. Used with permission.)
+
+Numerical Example ([PDF]({{< baseurl >}}/resources/dawson3)) (Courtesy of Chris H. Rycroft. Used with permission.)
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+2005 Lecture 5 ([PDF]({{< baseurl >}}/resources/lec05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### From Random Walks to Diffusion
+
+Examples of Random Walks Modeled by Diffusion Equations
+
+*   Flagellar Bacteria
+
+Run and Tumble Motion, Chemotaxis
+
+*   Financial Time Series
+
+Additive Versus Multiplicative Processes
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec08_06)) (Courtesy of Daniel Rudoy. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 10 ([PDF]({{< baseurl >}}/resources/lec10))
+
+Bouchaud and Potters
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Discrete Versus Continuous Stochastic Processes
+
+Corrections to the Diffusion Equation Approximating Discrete Random Walks with IID Steps
+
+Fat Tails and Riesz Fractional Derivatives
+
+Stochastic Differentials, Wiener Process
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec09_06)) (Courtesy of Kwai Hung Henry Lam. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 8 ([PDF]({{< baseurl >}}/resources/lec08))
+
+2005 Lecture 9 ([PDF]({{< baseurl >}}/resources/lec09))
+
+2005 Lecture 13 ([PDF]({{< baseurl >}}/resources/lec13))
+
+Risken
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Weakly Non-identical Steps
+
+Chapman-Kolmogorov Equation, Kramers-Moyall Expansion, Fokker-Planck Equation. Probability Flux
+
+Modified Kramers-Moyall Cumulant Expansion for Identical Steps
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 8 ([PDF]({{< baseurl >}}/resources/lec08))
+
+2005 Lecture 9 ([PDF]({{< baseurl >}}/resources/lec09))
+
+2005 Lecture 13 ([PDF]({{< baseurl >}}/resources/lec13))
+
+Risken
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**I.B. Nonlinear Diffusion**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Nonlinear Drift
+
+Interacting Random Walkers, Concentration-dependent Drift
+
+Nonlinear Waves in Traffic Flow, Characteristics, Shocks, Burgers' Equation
+
+Surface Growth, Kardar-Parisi-Zhang Equation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec11_06)) (Courtesy of Lou Odette. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Nonlinear Diffusion
+
+Cole-Hopf Transformation, General Solution of Burgers Equation
+
+Concentration-dependent Diffusion, Chemical Potential. Rechargeable Batteries, Steric Effects
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+Problem set 3 solutions
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**I.C. First Passage and Exploration**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Return Probability on a Lattice
+
+Probability Generating Functions on the Integers, First Passage and Return on a Lattice, Polya's Theorem
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec13_06)) (Courtesy of Chris H. Rycroft. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 17 ([PDF]({{< baseurl >}}/resources/lec17))
+
+2005 Lecture 18 ([PDF]({{< baseurl >}}/resources/lec18))
+
+Hughes Redne
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### The Arcsine Distribution
+
+Reflection Principle and Path Counting for Lattice Random Walks, Derivation of the Discrete Arcsine Distribution for the Fraction of Time Spent on One Side of the Origin, Continuum Limit
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec14_06)) (Courtesy of Chris H. Rycroft. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+Feller
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### First Passage in the Continuum Limit
+
+General Formulation in One Dimension
+
+Smirnov Density
+
+Minimum First Passage Time of a Set of N Random Walkers
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 16 ([PDF]({{< baseurl >}}/resources/lec16))
+
+Exam 2 (problem 2)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### First Passage in Arbitrary Geometries
+
+General Formulation in Higher Dimensions, Moments of First Passage Time, Eventual Hitting Probability, Electrostatic Analogy for Diffusion, First Passage to a Sphere
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 18 ([PDF]({{< baseurl >}}/resources/lec18))
+
+Redner
+
+Risken
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Conformal Invariance
+
+Conformal Transformations (Analytic Functions of the Plane, Stereographic Projection from the Plane to a Sphere,...), Conformally Invariant Transport Processes (Simple Diffusion, Advection-diffusion in a Potential Flow,...), Conformal Invariance of the Hitting Probability
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec17_06)) (Courtesy of Yee Lok Wong. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2003 Lecture 23 ([PDF]({{< baseurl >}}/resources/lecture23))
+
+An [Article](http://dx.doi.org/10.1098/rspa.2003.1218)
+
+Redner
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Hitting Probabilities in Two Dimensions
+
+Potential Theory using Complex Analysis, Mobius Transformations, First Passage to a Line
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2003 Lecture 23 ([PDF]({{< baseurl >}}/resources/lecture23))
+
+Redner
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Applications of Conformal Mapping
+
+First Passage to a Circle, Wedge/Corner, Parabola. Continuous Laplacian Growth, Polubarinova-Galin Equation, Saffman-Taylor Fingers, Finite-time Singularities
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2003 Lecture 23 ([PDF]({{< baseurl >}}/resources/lecture23))
+
+2003 Lecture 24 ([PDF]({{< baseurl >}}/resources/lecture24))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Diffusion-limited Aggregation
+
+Harmonic Measure, Hastings-Levitov Algorithm, Comparison of Discrete and Continuous Dynamics
+
+Overview of Mechanisms for Anomalous Diffusion
+
+Non-identical Steps
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2003 Lectures 25 ([PDF]({{< baseurl >}}/resources/lecture25))
+
+2003 Lecture 14 ([PDF]({{< baseurl >}}/resources/lecture14))
+
+2003 Lecture 15 ([PDF]({{< baseurl >}}/resources/lecture15))
+
+A [Review Article](http://de.arxiv.org/abs/cond-mat/0409439)
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**II. Anomalous Diffusion**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**II.A. Breakdown of the CLT**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Polymer Models: Persistence and Self-avoidance
+
+Random Walk to Model Entropic Effects in Polymers, Restoring Force for Stretching; Persistent Random Walk to Model Bond-bending Energetic Effects, Green-Kubo Relation, Persistence Length, Telegrapher's Equation; Self-avoiding Walk to Model Steric Effects, Fisher-Flory Estimate of the Scaling Exponent
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lectures 19 ([PDF]({{< baseurl >}}/resources/lec19))
+
+2005 Lecture 20 ([PDF]({{< baseurl >}}/resources/lec20))
+
+2003 Lecture 9 ([PDF]({{< baseurl >}}/resources/lecture9))
+
+2003 Lecture 10 ([PDF]({{< baseurl >}}/resources/lecture10))
+
+2003 Lecture 11 ([PDF]({{< baseurl >}}/resources/lecture11))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Levy Flights
+
+Superdiffusion and Limiting Levy Distributions for Steps with Infinite Variance, Examples, Size of the Largest Step, Frechet Distribution
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 22 ([PDF]({{< baseurl >}}/resources/lec22_neville))
+
+2003 Lecture 12 ([PDF]({{< baseurl >}}/resources/lecture12))
+
+2003 Lecture 13 ([PDF]({{< baseurl >}}/resources/lecture13))
+
+Hughes
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="4" >}}
+**II.B. Continuous-Time Random Walks**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Continuous-time Random Walks
+
+Laplace Transform. Renewal Theory
+
+Montroll-Weiss Formulation of CTRW
+
+DNA Gel Electrophoresis
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/lec23_chris_06)) (Courtesy of Michael Vahey. Used with permission.)
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 23 ([PDF]({{< baseurl >}}/resources/lec23_chris))
+
+2003 Lecture 15 ([PDF]({{< baseurl >}}/resources/lecture15))
+
+2003 Lecture 16 ([PDF]({{< baseurl >}}/resources/lecture16))
+
+2003 Lecture 17 ([PDF]({{< baseurl >}}/resources/lecture17))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Fractional Diffusion Equations
+
+CLT for CTRW
+
+Infinite Man Waiting Time, Mittag-Leffler Decay of Fourier Modes, Time-delayed Flux, Fractional Diffusion Equation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 24 ([PDF]({{< baseurl >}}/resources/lec24_yuxing))
+
+2003 Lecture 18 ([PDF]({{< baseurl >}}/resources/lecture18))
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Non-separable Continuous-time Random Walks
+
+"Phase Diagram" for Anomalous Diffusion: Large Steps Versus Long Waiting Times
+
+Application to Flagellar Bacteria. Hughes' General Formulation of CTRW with Motion between "turning points"
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 25 ([PDF]({{< baseurl >}}/resources/lec25_2005_rev2))
+
+2005 Lecture 26 ([PDF]({{< baseurl >}}/resources/lec26_geraint))
+
+Hughes
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+### Leapers and Creepers
+
+Hughes' Leaper and Creeper Models
+
+Leaper Example: Polymer Surface Adsorption Sites and Cross-sections of a Random Walk
+
+Creeper Examples: Levy Walks, Bacterial Motion, Turbulent Dispersion
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+
+
+2005 Lecture 26 ([PDF]({{< baseurl >}}/resources/lec26_geraint))
+
+Hughes
+
+
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
