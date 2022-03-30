@@ -3,6 +3,7 @@ content_type: resource
 description: This resource provides solutions to exam 1 on random walks and diffusion.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/18-366-random-walks-and-diffusion-fall-2006/4b1127e02d6e94805847e09b5b14665a_exam1_2005_sol.pdf
 file_type: application/pdf
+parent_uid: 7ffb88d2-024c-7e65-ff36-c3671d1dfb73
 resourcetype: Document
 title: exam1_2005_sol.pdf
 uid: 4b1127e0-2d6e-9480-5847-e09b5b14665a
